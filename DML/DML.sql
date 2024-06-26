@@ -25,4 +25,17 @@ SET Observacoes = 'Consulta de retorno com novos exames'
 WHERE ID_Consulta = 1;
 
 
-select * from paciente;
+-- Exclui o Consulta com ID 1
+DELETE FROM Consulta
+WHERE ID_Consulta = 1;
+
+-- Exclui o Paciente com ID 1
+DELETE FROM Paciente
+WHERE ID_Paciente = 1;
+
+
+-- Exclui o Nutricionista com ID 1
+DELETE FROM Nutricionista
+WHERE ID_Nutricionista = 1;
+
+
